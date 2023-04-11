@@ -1,0 +1,313 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.green-text{
+    color: #0C87E7;
+}
+
+.orange-text{
+    color: #FF3A44;
+}
+
+.header{
+    padding: 0 !important;
+}
+
+.header-img{
+    position: relative;
+    width: 100%;
+    height: 82px;
+}
+
+.header-img-children{
+    position: absolute;
+    top: 14px;
+    left: 34px;
+    bottom: 16px;
+}
+
+.infor{
+    position: absolute;
+    height: 82px;
+    right: 47px;
+    top: 0;
+    bottom: 16px;
+}
+
+.infor-title span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.infor-title span + span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.infor-triangle{
+    margin-left: 16px;
+}
+
+.header-students{
+    padding: 0 !important;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(188, 188, 188, 0.16);
+}
+
+.header-student--active span{
+    color: #2D323E;
+    margin-left: 50px;
+}
+
+.header-student--wrap{
+    border-bottom: 5px solid #0767B1;
+    margin-top: 12px;
+    padding-bottom: 11px;
+}
+
+.header-student--name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0767B1;
+}
+
+.result-learn{
+    padding: 0 !important;
+}
+
+.result-learn-body{
+    display: block;
+    border: 1px solid #B8BCC6;
+    border-radius: 8px;
+    margin: 33px;
+}
+
+.result-learn-margin{
+    margin: 0 24px;
+}
+
+.result-learn--header{
+    border-bottom: 1px solid #B8BCC6;
+    height: 80px;
+    overflow: hidden;
+}
+
+.learn-head--left{
+    margin-left: 25px ;
+
+}
+
+.learn-head--left p{
+    margin-left: 17px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+.learn-head--left img{
+    height: 13px;
+    width: auto;
+}
+
+.learn-head--right{
+    margin-right: 24px ;
+}
+
+.learn-semester span{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2D323E;
+}
+
+.learn-semester a{
+    display: block;
+    width: 120px ;
+    height: 30px ; 
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2D323E;
+    border: 1px solid #B8BCC6;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+.deligence{
+    margin-top: 28px;
+}
+
+.deligence-content{
+    margin-top: 24px;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.deligence-body span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #0767B1;
+}
+
+.deligence-first{
+    background: rgba(20, 184, 167, 0.1);
+    border-radius: 8px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.deligence-last span,
+.deligence-first span{
+    margin: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.deligence-last-quantity span,
+.deligence-first-quantity span{
+    color: #14B8A7;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    margin: 0;
+}
+
+.deligence-last-quantity span{
+    color: #AB5AD7;
+}
+
+
+.deligence-last-quantity span + span,
+.deligence-first-quantity span + span{
+    color: #2D323E;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    margin-left: 11px;
+    margin-right: 18px;
+}
+
+.deligence-last{
+    background-color: rgba(171, 90 ,215, 0.1);
+    border-radius: 8px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-left: 29px;
+}
+
+.table-quality,
+.table-feedback,
+.table-point{
+    margin-top: 32px;
+}
+
+.table-point-display{
+    display: table-row-group !important;
+}
+
+.table-feedback-content,
+.table-point-content{
+    margin-top: 24px;
+}
+
+
+.table-quality-content ,
+.table-feedback-content p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background: rgba(234, 234, 234, 0.28) !important;
+}
+
+.table-striped thead tr:nth-of-type(odd) {
+    background: rgba(243, 128, 32, 0.1);
+}
+
+.comment{
+    margin-top: 24px;
+    margin-bottom: 30px;
+    border: 2px solid #14B8A7;
+    border-radius: 8px;
+    box-shadow: 0px 4px #14B8A7; 
+}
+
+.comment-title{
+    margin: 22px;
+}
+
+
+.comment-content span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #14B8A7;
+}
+
+.comment-content  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+
+
+
+
+
+@media (max-width: 768px ){
+
+    .infor{
+        right: 26px;
+    }
+    .header-student--name{
+        font-size: 14px;
+    }
+
+    .result-learn--header{
+       height: auto ;
+    }
+    .learn-head--left{
+        margin-left: 0;
+        margin: 10px 0;
+    }
+    .learn-head--right{
+        margin-right: 0;
+    }
+
+    .learn-semester {
+        margin: 10px 0;
+    }
+    .learn-semester a{
+        margin-right: 0;
+    }
+    .deligence-last{
+        margin-left: 0;
+        margin-top: 8px;
+    }
+    .table thead th{
+        vertical-align: middle !important;
+    }
+    .table th , .table td{
+        vertical-align: middle !important;
+    }
+   
+ }
