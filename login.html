@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <title>vnEdu</title>
 </head>
+
 <body>
     <div class="app">
         <div class="container-fluid ">
@@ -27,34 +30,39 @@
                     <img class="banner-logo--img d-md-none d-sm-block" src="./assets/imgs/logo.png" />
                     <div class="login">
                         <div class="login-header d-flex flex-column">
-                            <span >Đăng nhập</span>
-                            <span >Phụ huynh vui lòng đăng nhập bằng tài khoản vnEdu Connect để xem các thông tin học tập của con tại trường</span>
+                            <span>Đăng nhập</span>
+                            <span>Phụ huynh vui lòng đăng nhập bằng tài khoản vnEdu Connect để xem các thông tin học tập
+                                của con tại trường</span>
                         </div>
 
                         <div class="login-body">
                             <div class="row body-title ">
                                 <div class="body-first col-md-12 col-lg-8 col-sm-12 d-flex flex-column">
-                                    <label class="label-login" >Tên tài khoản</label>
-                                        <div class="auth d-flex">
-                                            <img src="./assets/imgs/IconStart.png" />
-                                            <input id="username" type="text" placeholder="Nhập số điện thoại của phụ huynh">
-                                        </div>
-                                    <label class="label-login" >Mật khẩu</label>
-                                        <div class="auth d-flex">
-                                            <img src="./assets/imgs/IconPs.png"  />
-                                            <input id="password" type="password"  placeholder="Nhập mật khẩu đăng nhập">
-                                            <img src="./assets/imgs/showpass.png" alt="" id="showpass" class="cursor-p" />
-                                        </div>
+                                    <label class="label-login">Tên tài khoản</label>
+                                    <div class="auth d-flex">
+                                        <img src="./assets/imgs/IconStart.png" />
+                                        <input id="username" type="text" placeholder="Nhập số điện thoại của phụ huynh">
+                                    </div>
+                                    <label class="label-login">Mật khẩu</label>
+                                    <div class="auth d-flex">
+                                        <img src="./assets/imgs/IconPs.png" />
+                                        <input id="password" type="password" placeholder="Nhập mật khẩu đăng nhập">
+                                        <img src="./assets/imgs/showpass.png" alt="" id="showpass" class="cursor-p" />
+                                    </div>
                                     <button class="btn" id="btn-login">Đăng nhập</button>
-                                    <p class="d-none" id="error-login">Số điện thoại của Quý PHHS chưa đăng ký dịch vụ. Vui lòng liên hệ GVCN để đăng ký sử dụng dịch vụ</p>
-                                    <p class="d-none" id="warning-login">Số điện thoại không hợp lệ đề nghị Quý PHHS kiểm tra lại. Số điện thoại bao gồm 10 ký tự và bắt đầu bằng số 0.</p>
-                                    <p class="d-none" id="warning-login-account">Số điện thoại hoặc Mật khẩu không đúng. Đề nghị Quý PHHS kiểm tra lại</p>
+                                    <p class="d-none" id="error-login">Số điện thoại của Quý PHHS chưa đăng ký dịch vụ.
+                                        Vui lòng liên hệ GVCN để đăng ký sử dụng dịch vụ</p>
+                                    <p class="d-none" id="warning-login">Số điện thoại không hợp lệ đề nghị Quý PHHS
+                                        kiểm tra lại. Số điện thoại bao gồm 10 ký tự và bắt đầu bằng số 0.</p>
+                                    <p class="d-none" id="warning-login-account">Số điện thoại hoặc Mật khẩu không đúng.
+                                        Đề nghị Quý PHHS kiểm tra lại</p>
                                     <a href="#" id="forgot-pass">Quên mật khẩu</a>
                                 </div>
-                                <div class="body-last col-lg-4 d-flex flex-column align-items-center justify-content-center">
+                                <div
+                                    class="body-last col-lg-4 d-flex flex-column align-items-center justify-content-center">
                                     <img src="./assets/imgs/qr-code.png" />
-                                    <span >Quét mã để đăng nhập thuận tiện hơn bằng ứng dụng 
-                                        <img class="vnedu-note" src="./assets/imgs/vnedu.png"/>Connect</span>
+                                    <span>Quét mã để đăng nhập thuận tiện hơn bằng ứng dụng
+                                        <img class="vnedu-note" src="./assets/imgs/vnedu.png" />Connect</span>
                                 </div>
                             </div>
                         </div>
@@ -70,12 +78,12 @@
                             </ul>
 
                             <div class="footer d-flex flex-row align-items-center">
-                                <img src="./assets/imgs/Connect - 400x400 1.png " class="cursor-p"/>
+                                <img src="./assets/imgs/Connect - 400x400 1.png " class="cursor-p" />
                                 <div class="download d-flex flex-column align-items-center">
-                                    <p>Tải ứng dụng vnEdu  Connect</p>
+                                    <p>Tải ứng dụng vnEdu Connect</p>
                                     <div class="footer-app">
                                         <img src="./assets/imgs/Google Play Badge.png" class="cursor-p" />
-                                        <img src="./assets/imgs/App Store Badge.png " class="cursor-p"/>
+                                        <img src="./assets/imgs/App Store Badge.png " class="cursor-p" />
                                     </div>
                                 </div>
                             </div>
@@ -85,9 +93,12 @@
             </div>
         </div>
     </div>
-    
-    <script src="./assets/jquery/jquery-3.6.4.min.js" ></script>
+
+    <script src="./assets/jquery/jquery-3.6.4.min.js"></script>
     <script src="./assets/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

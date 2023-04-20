@@ -28,6 +28,10 @@ body{
     margin-top: 20px;
 }
 
+.fw-400{
+    font-weight: 400;
+}
+
 .header{
     padding: 0 !important;
 }
