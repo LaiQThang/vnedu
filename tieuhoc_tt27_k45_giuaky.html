@@ -18,36 +18,48 @@
 <body>
     <div class="container-fluid header">
         <img src="./assets/imgs/Rectangle 2688.png" class="header-img" />
-        <img src="./assets/imgs/Group.png" class="header-img-children" />
-        <div class="media infor d-md-flex justify-content-center align-items-center">
+        <div class="header-limit">
+          <a href="./trunghoc_tt22_canam.html">
+            <img src="./assets/imgs/Group.png" class="header-img-children" />
+          </a>
+          <div class="media infor d-md-flex justify-content-center align-items-center">
             <img src="./assets/imgs/avatar.png" class="align-self-center mr-3" alt="...">
             <div class="media-body d-none d-md-flex flex-column justify-content-center infor-title ">
-                <span class="mt-0">Xin chào phụ huynh</span>
-                <span class="mt-0">Nguyễn Văn A</span>
+              <span class="mt-0">Xin chào phụ huynh</span>
+              <span class="mt-0">Nguyễn Văn A</span>
             </div>
-            <img class="infor-triangle" src="./assets/imgs/triangle-down 1.png" alt="">
+            <div class="btn-group">
+              <button type="button" class="dropdown-infor" data-toggle="dropdown" aria-expanded="false">
+                <img class="infor-triangle" src="./assets/imgs/triangle-down 1.png" alt="">
+              </button>
+              <div class="dropdown-menu dropdown-menu-right dropdown-infor-position">
+                <button class="dropdown-item" type="button">Thông tin tài khoản</button>
+                <button class="dropdown-item" type="button">Đăng xuất</button>
+              </div>
+            </div>
+          </div>
         </div>
-
-    </div>
+    
+      </div>
     <div class="container-fluid header-students">
+        <div class="header-student--wrap header-student-active">
+          <span class="header-student--name ">Nguyễn Hải Linh - 6A2</span>
+        </div>
         <div class="header-student--wrap">
-            <span class="header-student--name">Nguyễn Hải Linh - 9A2</span>
+          <span class="header-student--name">Vũ Diệu Ngọc - 10A2</span>
         </div>
-        <div class="header-student--active">
-            <span class="header-student--name">Vũ Diệu Ngọc - 10A2</span>
-        </div>
-    </div>
+      </div>
     <div class="container-fluid result-learn">
         <div class="result-learn-body">
             <div class="result-learn--header d-md-flex justify-content-between  align-items-center">
                 <div class=" d-flex learn-head--left justify-content-center  align-items-center">
-                    <img src="./assets/imgs/arrow-down.png" class="d-none d-md-block" />
+                     
                     <p class="h5">Kết quả học tập</p>
                 </div>
                 <div class=" d-md-flex  learn-head--right justify-content-center  align-items-center">
                     <div class="dropdown learn-semester d-flex justify-content-center  align-items-center">
                         <span>Học kỳ</span>
-                        <a class="d-flex align-items-center justify-content-around  dropdown-toggle text-decoration-none"
+                        <a class="d-flex align-items-center justify-content-around  dropdown-toggle text-decoration-none learn-semester--respon"
                             href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                             Học kỳ 1
                         </a>
@@ -62,18 +74,16 @@
 
                     <div class="dropdown learn-semester d-flex justify-content-center  align-items-center">
                         <span>Đợt điểm</span>
-                        <a class="d-flex align-items-center justify-content-around  dropdown-toggle text-decoration-none"
-                            href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Đợt điểm 1
+                        <a class="d-flex align-items-center justify-content-around  dropdown-toggle text-decoration-none" href="#"
+                          role="button" data-toggle="dropdown" aria-expanded="false">
+                          Đợt điểm 1 (09/01/2023->07/03/2023)
                         </a>
-
+            
                         <div class="dropdown-menu learn-menu--list">
-                            <a class="dropdown-item align-items-center d-flex justify-content-center" href="#">Đợt điểm
-                                1</a>
-                            <a class="dropdown-item align-items-center d-flex justify-content-center" href="#">Đợt điểm
-                                2</a>
+                          <a class="dropdown-item align-items-center d-flex justify-content-center" href="#">Đợt điểm 1 (09/01/2023->07/03/2023)</a>
+                          <a class="dropdown-item align-items-center d-flex justify-content-center" href="#">Đợt điểm 2 (27/02/2023->16/03/2023)</a>
                         </div>
-                    </div>
+                      </div>
                 </div>
             </div>
             <div class="result-learn-margin">
@@ -82,7 +92,7 @@
                     <div class="media">
                         <img src="./assets/imgs/diligence.png" class="align-self-center mr-3" alt="...">
                         <div class="media-body deligence-body">
-                            <span class="mt-0">Chuyên cần</span>
+                            <span class="mt-0">CHUYÊN CẦN</span>
                         </div>
                     </div>
                     <div class="deligence-content row d-sm-flex d-md-flex flexm-md-row">
@@ -110,7 +120,7 @@
                         <div class="media">
                             <img src="./assets/imgs/table-point.png" class="align-self-center mr-3" alt="...">
                             <div class="media-body deligence-body">
-                                <span class="mt-0">Bảng điểm</span>
+                                <span class="mt-0">BẢNG ĐIỂM</span>
                             </div>
                         </div>
                         <div class="table-point-content ">
@@ -213,7 +223,7 @@
                         <div class="media">
                             <img src="./assets/imgs/feedBack.png" class="align-self-center mr-3" alt="...">
                             <div class="media-body deligence-body">
-                                <span class="mt-0">Đánh giá Năng lực - Phẩm chất</span>
+                                <span class="mt-0">ĐÁNH GIÁ NĂNG LỰC - PHẨM CHẤT</span>
                             </div>
                         </div>
                         <div class="table-feedback-content ">
@@ -364,6 +374,7 @@
             </div>
         </div>
 
+        <script src="./assets/jquery/jquery-3.6.4.min.js"></script>
         <script src="./assets/index.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

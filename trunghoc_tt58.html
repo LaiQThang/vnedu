@@ -17,22 +17,34 @@
 <body>
   <div class="container-fluid header">
     <img src="./assets/imgs/Rectangle 2688.png" class="header-img" />
-    <img src="./assets/imgs/Group.png" class="header-img-children" />
-    <div class="media infor d-md-flex justify-content-center align-items-center">
-      <img src="./assets/imgs/avatar.png" class="align-self-center mr-3" alt="...">
-      <div class="media-body d-none d-md-flex flex-column justify-content-center infor-title ">
-        <span class="mt-0">Xin chào phụ huynh</span>
-        <span class="mt-0">Nguyễn Văn A</span>
+    <div class="header-limit">
+      <a href="./trunghoc_tt22_canam.html">
+        <img src="./assets/imgs/Group.png" class="header-img-children" />
+      </a>
+      <div class="media infor d-md-flex justify-content-center align-items-center">
+        <img src="./assets/imgs/avatar.png" class="align-self-center mr-3" alt="...">
+        <div class="media-body d-none d-md-flex flex-column justify-content-center infor-title ">
+          <span class="mt-0">Xin chào phụ huynh</span>
+          <span class="mt-0">Nguyễn Văn A</span>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="dropdown-infor" data-toggle="dropdown" aria-expanded="false">
+            <img class="infor-triangle" src="./assets/imgs/triangle-down 1.png" alt="">
+          </button>
+          <div class="dropdown-menu dropdown-menu-right dropdown-infor-position">
+            <button class="dropdown-item" type="button">Thông tin tài khoản</button>
+            <button class="dropdown-item" type="button">Đăng xuất</button>
+          </div>
+        </div>
       </div>
-      <img class="infor-triangle" src="./assets/imgs/triangle-down 1.png" alt="">
     </div>
 
   </div>
   <div class="container-fluid header-students">
-    <div class="header-student--wrap">
-      <span class="header-student--name">Nguyễn Hải Linh - 6A2</span>
+    <div class="header-student--wrap header-student-active">
+      <span class="header-student--name ">Nguyễn Hải Linh - 6A2</span>
     </div>
-    <div class="header-student--active">
+    <div class="header-student--wrap">
       <span class="header-student--name">Vũ Diệu Ngọc - 10A2</span>
     </div>
   </div>
@@ -40,14 +52,14 @@
     <div class="result-learn-body">
       <div class="result-learn--header d-md-flex justify-content-between  align-items-center">
         <div class=" d-flex learn-head--left justify-content-center  align-items-center">
-          <img src="./assets/imgs/arrow-down.png" class="d-none d-md-block" />
+           
           <p class="h5">Kết quả học tập</p>
         </div>
         <div class=" d-md-flex  learn-head--right justify-content-center  align-items-center">
           <div class="dropdown learn-semester d-flex justify-content-center  align-items-center">
             <span>Học kỳ</span>
-            <a class="d-flex align-items-center justify-content-around  dropdown-toggle text-decoration-none" href="#"
-              role="button" data-toggle="dropdown" aria-expanded="false">
+            <a class="d-flex align-items-center justify-content-around  dropdown-toggle text-decoration-none learn-semester--respon"
+              href="#" role="button" data-toggle="dropdown" aria-expanded="false">
               Học kỳ 1
             </a>
 
@@ -61,12 +73,12 @@
             <span>Đợt điểm</span>
             <a class="d-flex align-items-center justify-content-around  dropdown-toggle text-decoration-none" href="#"
               role="button" data-toggle="dropdown" aria-expanded="false">
-              Đợt điểm 1
+              Đợt điểm 1 (09/01/2023->07/03/2023)
             </a>
 
             <div class="dropdown-menu learn-menu--list">
-              <a class="dropdown-item align-items-center d-flex justify-content-center" href="#">Đợt điểm 1</a>
-              <a class="dropdown-item align-items-center d-flex justify-content-center" href="#">Đợt điểm 2</a>
+              <a class="dropdown-item align-items-center d-flex justify-content-center" href="#">Đợt điểm 1 (09/01/2023->07/03/2023)</a>
+              <a class="dropdown-item align-items-center d-flex justify-content-center" href="#">Đợt điểm 2 (27/02/2023->16/03/2023)</a>
             </div>
           </div>
         </div>
@@ -80,7 +92,7 @@
               <div class="media">
                 <img src="./assets/imgs/book.png" class="align-self-center mr-3" alt="...">
                 <div class="media-body deligence-body">
-                  <span class="mt-0">Tổng kết</span>
+                  <span class="mt-0">TỔNG KẾT</span>
                 </div>
               </div>
               <div class="deligence-content row d-sm-flex d-md-flex flexm-md-row justify-content-between">
@@ -116,7 +128,7 @@
               <div class="media">
                 <img src="./assets/imgs/diligence.png" class="align-self-center mr-3" alt="...">
                 <div class="media-body deligence-body">
-                  <span class="mt-0">Chuyên cần</span>
+                  <span class="mt-0">CHUYÊN CẦN</span>
                 </div>
               </div>
               <div class="deligence-content row d-sm-flex d-md-flex flexm-md-row">
@@ -140,7 +152,7 @@
               <div class="media">
                 <img src="./assets/imgs/cup.png" class="align-self-center mr-3" alt="...">
                 <div class="media-body deligence-body">
-                  <span class="mt-0">Khen thưởng và danh hiệu</span>
+                  <span class="mt-0">KHEN THƯỞNG VÀ DANH HIỆU</span>
                 </div>
               </div>
               <div class="deligence-content praise-content  row d-sm-flex d-md-flex flexm-md-row align-items-center">
@@ -162,7 +174,7 @@
           <div class="media">
             <img src="./assets/imgs/table-point.png" class="align-self-center mr-3" alt="...">
             <div class="media-body deligence-body">
-              <span class="mt-0">Bảng điểm</span>
+              <span class="mt-0">BẢNG ĐIỂM</span>
             </div>
           </div>
           <div class="table-point-content ">
@@ -171,17 +183,22 @@
               <thead class="row table-point-display">
                 <tr>
                   <th class="col-3 " scope="col">Môn học</th>
-                  <th class="col-3 " scope="col">Đánh giá thường xuyên</th>
+                  <th class="col-2 " scope="col">Đánh giá thường xuyên</th>
                   <th class="col-1 text-center " scope="col">Giữa kỳ</th>
                   <th class="col-1 text-center " scope="col">Cuối kỳ</th>
                   <th class="col-1 text-center " scope="col">TBM</th>
-                  <th class="col-3  " scope="col">Nhận xét của giáo viên</th>
+                  <th class="col-4  " scope="col">Nhận xét</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <th scope="row">Toán</th>
-                  <td>9.0 | 10.0 | 8.0 | 10.0</td>
+                  <td class="d-md-flex">
+                    <p>10.0</p>
+                    <p>5.0</p>  
+                    <p>8.0</p>
+                    <p>10.0</p>
+                  </td>
                   <th class="text-center green-text">8.0</th>
                   <th class="text-center green-text">9.0</th>
                   <th class="text-center green-text">8.9</th>
@@ -189,7 +206,12 @@
                 </tr>
                 <tr>
                   <th scope="row">Ngữ văn</th>
-                  <td>9.0 | 10.0 | 8.0 | 10.0</td>
+                  <td class="d-md-flex">
+                    <p>9.0</p>
+                    <p>10.0</p>
+                    <p>8.0</p>
+                    <p>10.0</p>
+                  </td>
                   <th class="text-center green-text">8.0</th>
                   <th class="text-center green-text">9.0</th>
                   <th class="text-center green-text">8.9</th>
@@ -197,7 +219,12 @@
                 </tr>
                 <tr>
                   <th scope="row">Lịch sử và địa lý</th>
-                  <td>9.0 | 10.0 | 8.0 | 10.0</td>
+                  <td class="d-md-flex">
+                    <p>9.0</p>
+                    <p>10.0</p>
+                    <p>8.0</p>
+                    <p>10.0</p>
+                  </td>
                   <th class="text-center green-text">8.0</th>
                   <th class="text-center green-text">9.0</th>
                   <th class="text-center orange-text">2.0</th>
@@ -205,7 +232,12 @@
                 </tr>
                 <tr>
                   <th scope="row">Khoa học tự nhiên</th>
-                  <td>9.0 | 10.0 | 4.0 | 10.0</td>
+                  <td class="d-md-flex">
+                    <p>9.0</p>
+                    <p>10.0</p>
+                    <p class="orange-text">4.0</p>
+                    <p>10.0</p>
+                  </td>
                   <th class="text-center green-text">8.0</th>
                   <th class="text-center orange-text">4.5</th>
                   <th class="text-center green-text">8.9</th>
@@ -213,7 +245,12 @@
                 </tr>
                 <tr>
                   <th scope="row">Tin học</th>
-                  <td>9.0 | 10.0 | 8.0 | 10.0</td>
+                  <td class="d-md-flex">
+                    <p>9.0</p>
+                    <p>10.0</p>
+                    <p>8.0</p>
+                    <p>10.0</p>
+                  </td>
                   <th class="text-center green-text">8.0</th>
                   <th class="text-center green-text">9.0</th>
                   <th class="text-center green-text">8.9</th>
@@ -221,23 +258,38 @@
                 </tr>
                 <tr>
                   <th scope="row">Ngoại ngữ</th>
-                  <td>9.0 | 3.0 | 8.0 | 10.0</td>
+                  <td class="d-md-flex">
+                    <p>9.0</p>
+                    <p class="orange-text">3.0</p>
+                    <p>8.0</p>
+                    <p>10.0</p>
+                  </td>
                   <th class="text-center green-text">8.0</th>
                   <th class="text-center orange-text">3.3</th>
                   <th class="text-center green-text">8.9</th>
                   <td>Chăm chỉ, có năng lực tự học và tự chủ</td>
                 </tr>
                 <tr>
-                  <th scope="row">DGCD</th>
-                  <td>9.0 | 10.0 | 8.0 | 10.0</td>
+                  <th scope="row">GDCD</th>
+                  <td class="d-md-flex">
+                    <p>9.0</p>
+                    <p>10.0</p>
+                    <p>8.0</p>
+                    <p>10.0</p>
+                  </td>
                   <th class="text-center orange-text">3.0</th>
                   <th class="text-center green-text">9.0</th>
-                  <th class="text-center green-text">2.5</th>
+                  <th class="text-center orange-text">2.5</th>
                   <td>Kiến thức đạt chuẩn, kỹ năng thành thạo</td>
                 </tr>
                 <tr>
                   <th scope="row">Công nghệ</th>
-                  <td>9.0 | 10.0 | 8.0 | 10.0</td>
+                  <td class="d-md-flex">
+                    <p>9.0</p>
+                    <p>10.0</p>
+                    <p>8.0</p>
+                    <p>10.0</p>
+                  </td>
                   <th class="text-center green-text">8.0</th>
                   <th class="text-center green-text">9.0</th>
                   <th class="text-center orange-text">4.9</th>
@@ -253,7 +305,7 @@
           <div class="media">
             <img src="./assets/imgs/table-point.png" class="align-self-center mr-3" alt="...">
             <div class="media-body deligence-body">
-              <span class="mt-0">Bảng điểm</span>
+              <span class="mt-0">BẢNG ĐIỂM</span>
             </div>
           </div>
           <div class="table-point-content ">
@@ -262,17 +314,22 @@
               <thead class="row table-point-display">
                 <tr>
                   <th class="col-3 " scope="col">Môn học</th>
-                  <th class="col-3 " scope="col">Đánh giá thường xuyên</th>
+                  <th class="col-2 " scope="col">Đánh giá thường xuyên</th>
                   <th class="col-1 text-center " scope="col">Giữa kỳ</th>
                   <th class="col-1 text-center " scope="col">Cuối kỳ</th>
                   <th class="col-1 text-center " scope="col">TBM</th>
-                  <th class="col-3  " scope="col">Nhận xét của giáo viên</th>
+                  <th class="col-4  " scope="col">Nhận xét của giáo viên</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <th scope="row">Giáo dục thể chất</th>
-                  <td>Đ | Đ | Đ | CĐ</td>
+                  <td class="d-md-flex">
+                    <p>Đ</p>
+                    <p class="orange-text">CĐ</p>
+                    <p>Đ</p>
+                    <p>Đ</p>
+                  </td>
                   <th class="text-center green-text">Đ</th>
                   <th class="text-center green-text">Đ</th>
                   <th class="text-center orange-text">CĐ</th>
@@ -280,7 +337,12 @@
                 </tr>
                 <tr>
                   <th scope="row">Nghệ thuật</th>
-                  <td>Đ | CĐ | Đ | Đ</td>
+                  <td class="d-md-flex">
+                    <p>Đ</p>
+                    <p class="orange-text">CĐ</p>
+                    <p>Đ</p>
+                    <p>Đ</p>
+</td>
                   <th class="text-center orange-text">CĐ</th>
                   <th class="text-center green-text">Đ</th>
                   <th class="text-center green-text">Đ</th>
@@ -288,7 +350,12 @@
                 </tr>
                 <tr>
                   <th scope="row">Nội dung giáo dục của địa phương</th>
-                  <td>Đ | Đ | Đ | CĐ</td>
+                  <td class="d-md-flex">
+                    <p>Đ</p>
+                    <p class="orange-text">CĐ</p>
+                    <p>Đ</p>
+                    <p>Đ</p>
+                  </td>
                   <th class="text-center green-text">Đ</th>
                   <th class="text-center green-text">Đ</th>
                   <th class="text-center orange-text">CĐ</th>
@@ -296,7 +363,12 @@
                 </tr>
                 <tr>
                   <th scope="row">Hoạt động trải nghiệm hướng nghiệp</th>
-                  <td>9.0 | 10.0 | 8.0 | 10.0</td>
+                  <td class="d-md-flex">
+                    <p>9.0</p>
+                    <p>10.0</p>
+                    <p>8.0</p>
+                    <p>10.0</p>
+                  </td>
                   <th class="text-center green-text">8.0</th>
                   <th class="text-center green-text">9.0</th>
                   <th class="text-center orange-text">4.9</th>
@@ -327,6 +399,7 @@
   </div>
   </div>
 
+  <script src="./assets/jquery/jquery-3.6.4.min.js"></script>
   <script src="./assets/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

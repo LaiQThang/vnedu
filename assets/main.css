@@ -30,31 +30,42 @@ body{
 
 .fw-400{
     font-weight: 400;
+    font-size: 16px;
 }
+
+thead{
+    border-bottom: 3px solid #F38020;
+}
+
 
 .header{
     padding: 0 !important;
+    display: flex;
+    justify-content: center;
 }
-
 .header-img{
     position: relative;
     width: 100%;
     height: 82px;
 }
 
-.header-img-children{
+.header-limit{
     position: absolute;
-    top: 14px;
-    left: 34px;
-    bottom: 16px;
+    width: 100%;
+    top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-limit a{
+    margin-left: 34px;
 }
 
 .infor{
-    position: absolute;
-    height: 82px;
-    right: 47px;
-    top: 0;
-    bottom: 16px;
+    margin-right: 34px;
 }
 
 .infor-title span{
@@ -75,6 +86,15 @@ body{
     margin-left: 16px;
 }
 
+.dropdown-infor{
+    border: none;
+    background-color: transparent;
+}
+    
+.dropdown-infor-position{
+    top: 6px !important;
+}
+
 .header-students{
     padding: 0 !important;
     width: 100%;
@@ -85,15 +105,15 @@ body{
     box-shadow: 0px 4px 6px rgba(188, 188, 188, 0.16);
 }
 
-.header-student--active span{
-    color: #2D323E;
+.header-student--wrap:last-child{
     margin-left: 50px;
 }
 
 .header-student--wrap{
-    border-bottom: 5px solid #0767B1;
     margin-top: 12px;
     padding-bottom: 11px;
+    cursor: pointer;
+    border-bottom: 5px solid transparent;
 }
 
 .header-student--name{
@@ -102,11 +122,17 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
+}
+
+.header-student-active {
     color: #0767B1;
+    border-bottom: 5px solid #0767B1;
 }
 
 .result-learn{
     padding: 0 !important;
+    width: 100%;
+    max-width: 1440px;
 }
 
 .result-learn-body{
@@ -131,7 +157,6 @@ body{
 }
 
 .learn-head--left p{
-    margin-left: 17px;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
@@ -165,6 +190,10 @@ body{
     border: 1px solid #B8BCC6;
     margin-left: 15px;
     margin-right: 25px;
+}
+
+.learn-semester:last-child a{
+    width: 288px !important;
 }
 
 .deligence{
@@ -290,7 +319,15 @@ body{
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
-    margin-bottom: 26px;
+}
+
+.table-quality-content  th{
+    font-size: 16px;
+}
+
+.table-quality-content  td{
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
@@ -503,6 +540,26 @@ body{
     color: #AB5AD7 !important;
 }
 
+/* table */
+td p{
+    font-weight: 500;
+    text-align: center;
+    width: 50px;
+    border-right: 2px solid #ccc;
+    margin: 0;
+}
+
+td p:first-child{
+    margin-left: -12px;
+}
+
+td p:last-child{
+    border: none;
+}
+
+.table th, .table td {
+    vertical-align: middle !important;
+}
 
 @media (max-width: 768px ){
     .mts-10{
@@ -522,6 +579,9 @@ body{
     }
     .infor{
         right: 26px;
+    }
+    .infor img {
+        margin-right: 0 !important;
     }
     .header-student--name{
         font-size: 14px;
@@ -546,10 +606,19 @@ body{
     }
     .learn-semester a{
         margin-right: 0;
+        margin-left: 3px;
+    }
+
+    
+    .learn-semester--respon{
+        margin-left: 18px !important;
+    }
+    .learn-menu--list a{
+        margin: 0;
     }
     .deligence-last{
         margin-left: 0;
-        margin-top: 8px;
+        margin-top: 10px;
     }
     .table thead th{
         vertical-align: middle !important;
@@ -579,6 +648,12 @@ body{
         margin-top: 10px;
         margin-left: 0;
         margin-bottom: 20px;
+    }
+    td p{
+        border: none;
+    }
+    td p:first-child{
+        margin-left: 0;
     }
  }
 
@@ -776,37 +851,4 @@ body{
     }
 }
 
-/* Reset Password */
-.login-body-resetP a{
-    margin-top: 28px;
-}
 
-.footer-reset--password{
-    margin-top: 60px;
-}
-
-.modal-done-boder{
-    box-shadow: 0px 4px 32px 1px rgba(186, 186, 186, 0.12);
-    border-radius: 24px !important;
-}
-
-.modal-done-reset img{
-    margin-top: 60px;
-    margin-bottom: 40px;
-    width: 25%;
-}
-
-.modal-done-reset p{
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 150%;
-}
-
-.modal-done-reset a{
-    width: 100%;
-    height: 44px;
-    background: #0767B1;
-    border-radius: 6px;
-    color: #FFFFFF;
-    margin-bottom: 45px;
-}

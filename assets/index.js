@@ -47,3 +47,17 @@ $("#btn-login").click(function(){
 $("#showpass").click(function(){
     $("#password")[0].type === "password" ? $("#password")[0].type = "text" : $("#password")[0].type = "password";
 });
+
+//kết quả học tập
+
+const tab = document.querySelectorAll(".header-student--wrap");
+
+for(var i = 0; i< tab.length; i++){
+    tab[i].addEventListener("click", function () {
+        const hide = document.getElementsByClassName('header-student-active');
+        hide[0].className = hide[0].className.replace('header-student-active', '');
+        this.classList.add("header-student-active");
+    })
+    
+}
+
